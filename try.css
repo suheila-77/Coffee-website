@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+ margin: 20px 20px;
+
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+.signup{
+    font-size: 20px;
+    border: none;
+    background-color: #AB5C;
+    padding: 16PX 50PX;
+    
+}
+.orderBtn{
+    font-size: 20px;
+    border: 1px #AB5C solid;
+    color: black;
+    padding: 15PX 50PX;
+    
+}
+
+.body{
+    text-align: center;
+    background-color: blanchedalmond;
+   
+    height: 670px;
+}
+.body img{
+  width: 1192PX;
+  height: 500PX;
+}
+.body{
+    font-size: 20px;
+   margin-top: 25px;
+}
+.body p{
+    padding-top: 20px;
+}
+.body img{
+    margin-top: 10px;
+}
+.body h1{
+    padding-top: 10px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+     margin: 50px 50px;  
+    border-bottom: 1px salmon solid;
+    margin-bottom: 50px;
+    border-top: 1px salmon solid;
+    margin-top: 50px;
+    padding: 20px;
+  
+}
+
+.blog img{
+    width: 200px;
+
+
+}
+.blog h3, p{
+    padding: 10px 20px;
+}

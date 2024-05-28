@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+  
+  *{
+    font-family: DM sans;
+    padding: 0;
+    margin: 0;
+}
+.header span{
+    color: #A27B5C;
+}
+.header h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px 50px;
+}
+
+.header ul{
+ display: flex;
+ font-size: 20px;
+ gap: 40px;
+list-style: none;
+ 
+}
+.orderBtn{
+    background-color: #A27B5C;
+    padding: 16PX 50PX;
+    border:none;
+    font-size: 20px;
+    color: white;
+}
+.main
+{
+    background-color: #f8ebd7;
+    height: 730px;
+    padding: 20px;
+   
+    
+}
+.main h1{
+    margin-top: 40px;
+    font-size: 96px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+
+}
+.main p{
+    text-align: center;
+    margin: 25px ;
+}
+.main img{
+    margin-left:50px;
+height: 500px;
+width: 1192px;
+
+}
+.main h2,h6{
+font-size: 20px;
+margin-left: 50px;
+}
+.main h6{
+color: rgb(165, 165, 165);
+font-weight: 300;
+}
+
+.signinBtn{
+    padding: 14px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #A27B5C;
+   border: 2px #A27B5C solid;
+   background-color: white;
+}
+.blog{
+border-top: 1px grey solid;
+border-bottom: 1px grey solid;
+padding: 20px;
+margin-bottom: 50px;
+margin-top: 50px;
+display: flex;
+align-items: center;
+margin-left: 50px;
+margin-right: 50px;
+gap: 40px;
+}
+.blog img{
+    width: 261px;
+    height: 200px;
+
+}
+.blog p{
+    color: rgb(158, 151, 151);
+    padding-top: 10px;
+
+}
+.blog h1{
+    margin-bottom: 10px;
+}
+.footer{
+    height:500px;
+    background-color: black;
+    color: white;
+
+}
+.footer-adress{
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 2px white solid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-adress h1{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.footer-adress p{
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+.icon-parent{
+    margin: 20px 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.icon-left i{
+    font-size: 20px;
+    padding: 10px;
+}
+.icon-right{
+    display: flex;
+    gap: 30px;
+}
+.icon-right p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    color: #A27B5C;
+    margin: 100px 90px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
